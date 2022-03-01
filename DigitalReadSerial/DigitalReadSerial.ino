@@ -8,6 +8,10 @@
   http://www.arduino.cc/en/Tutorial/DigitalReadSerial
 */
 
+//Programmer: Mr. Lange
+//Date:2.28.2022
+//Materials: 10K Ohm Resistor - Push Button - Bread Board - Wires
+
 // digital pin 2 has a pushbutton attached to it. Give it a name:
 int pushButton = 2;
 
@@ -25,5 +29,5 @@ void loop() {
   int buttonState = digitalRead(pushButton);
   // print out the state of the button:
   Serial.println(buttonState);
-  delay(1);        // delay in between reads for stability
+  delay(500);        // delay in between reads for stability
 }
