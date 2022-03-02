@@ -15,6 +15,9 @@
   http://www.arduino.cc/en/Tutorial/Tone
 */
 
+// Programmer: Mr. Lange
+// Date: 3.2.2022
+
 #include "pitches.h"
 
 // notes in the melody:
